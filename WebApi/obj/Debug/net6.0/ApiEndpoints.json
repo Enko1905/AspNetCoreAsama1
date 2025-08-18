@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "WebApi.Controllers.Products",
+    "Method": "GetProductAsync",
+    "RelativePath": "api/Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
