@@ -75,3 +75,14 @@ C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\obj\Debug\net6.0\WebApi
 C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\obj\Debug\net6.0\ref\WebApi.dll
 C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Services.dll
+C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Services.pdb
+C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Bcl.HashCode.dll
+C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

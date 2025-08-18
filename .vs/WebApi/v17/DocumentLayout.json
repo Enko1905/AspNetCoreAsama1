@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\webapi\\controllers\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\webapi\\utilities\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\utilities\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D0DDE41-0183-45B0-9D5F-006483F6E10D}|Entities\\Entities.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\entities\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D0DDE41-0183-45B0-9D5F-006483F6E10D}|Entities\\Entities.csproj|solutionrelative:entities\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +38,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Entities\\Models\\Products.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Products.cs",
-              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Entities\\Models\\Products.cs",
-              "RelativeToolTip": "Entities\\Models\\Products.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "RelativeToolTip": "WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T20:25:43.331Z",
+              "WhenOpened": "2025-08-18T23:11:19.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Controllers\\Product.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\Product.cs",
-              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Controllers\\Product.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T20:24:33.337Z",
+              "DocumentIndex": 1,
+              "Title": "WebApi",
+              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-18T23:10:26.089Z",
               "EditorCaption": ""
             }
           ]

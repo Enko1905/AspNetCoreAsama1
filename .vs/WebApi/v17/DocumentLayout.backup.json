@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Repositories\\Migrations\\20250818201732_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Migrations\\20250818201732_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D0DDE41-0183-45B0-9D5F-006483F6E10D}|Entities\\Entities.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\entities\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D0DDE41-0183-45B0-9D5F-006483F6E10D}|Entities\\Entities.csproj|solutionrelative:entities\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\webapi\\controllers\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Repositories\\Migrations\\20250818201132_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Migrations\\20250818201132_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D00E981F-7655-4D0B-8331-9D748DF95030}|Repositories\\Repositories.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\repositories\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D00E981F-7655-4D0B-8331-9D748DF95030}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,105 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250818201732_init.cs",
-              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Repositories\\Migrations\\20250818201732_init.cs",
-              "RelativeDocumentMoniker": "Repositories\\Migrations\\20250818201732_init.cs",
-              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Repositories\\Migrations\\20250818201732_init.cs",
-              "RelativeToolTip": "Repositories\\Migrations\\20250818201732_init.cs",
+              "Title": "WebApi",
+              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T20:17:32.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20250818201132_init.cs",
-              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Repositories\\Migrations\\20250818201132_init.cs",
-              "RelativeDocumentMoniker": "Repositories\\Migrations\\20250818201132_init.cs",
-              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Repositories\\Migrations\\20250818201132_init.cs",
-              "RelativeToolTip": "Repositories\\Migrations\\20250818201132_init.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBoAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T20:11:32.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "WebApi\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "WebApi\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T19:59:59.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Controllers\\Products.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\Products.cs",
-              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Controllers\\Products.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\Products.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAYwBYAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T19:57:07.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RepositoryContext.cs",
-              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Repositories\\RepositoryContext.cs",
-              "RelativeDocumentMoniker": "Repositories\\RepositoryContext.cs",
-              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Repositories\\RepositoryContext.cs",
-              "RelativeToolTip": "Repositories\\RepositoryContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T19:53:56.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Entities\\Models\\Products.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\Products.cs",
-              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Entities\\Models\\Products.cs",
-              "RelativeToolTip": "Entities\\Models\\Products.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T19:46:54.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\appsettings.json",
-              "RelativeToolTip": "WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-18T19:21:31.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T19:21:30.403Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-18T23:10:26.089Z",
               "EditorCaption": ""
             }
           ]

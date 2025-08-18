@@ -1,7 +1,8 @@
 ﻿using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Repositories;
+using Repositories.EFCore;
+using Services.Contratcs;
 
 namespace WebApi.Controllers
 {
@@ -9,17 +10,17 @@ namespace WebApi.Controllers
     [ApiController]
     public class Product : ControllerBase
     {
-        private readonly RepositoryContext _context;
+        private readonly IServiceManager _manager;
 
-        public Product(RepositoryContext context)
+        public Product(IServiceManager manager)
         {
-            _context = context;
+            _manager = manager;
         }
         [HttpGet]
 
-        public IActionResult GetProduct()
+        public async Task<IActionResult> GetProduct()
         {
-            var result = _context.products.ToList();
+            var result = await _manager.ProductService.GetAllProductAsync(false);
             if (result is null)
             {
                return NotFound();
@@ -27,11 +28,11 @@ namespace WebApi.Controllers
             return Ok(result);
         }
         [HttpPost]
-        public IActionResult CreateProduct([FromBody]Product product) 
+        public IActionResult CreateProduct([FromBody]Products products) 
         {
-            if (product is not null) 
+            if (products is not null) 
             {
-                return StatusCode(201, product);
+                return StatusCode(201, products);
             }
             return BadRequest();
             

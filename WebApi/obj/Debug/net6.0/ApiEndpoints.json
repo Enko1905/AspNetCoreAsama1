@@ -1,12 +1,28 @@
 [
   {
-    "ContainingType": "WebApi.Controllers.Products",
-    "Method": "GetProductAsync",
-    "RelativePath": "api/Products",
+    "ContainingType": "WebApi.Controllers.Product",
+    "Method": "GetProduct",
+    "RelativePath": "api/Product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.Product",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "products",
+        "Type": "Entities.Models.Products",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]
