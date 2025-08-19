@@ -1,6 +1,6 @@
 using WebApi.Extensions;
 using Services;
-using WebApi.Utilities.AutoMapper;
+using WebApi.Extensions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,17 +11,20 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//WebApi/Extension/ServiceExtension içerisinde sql baðlantýsý  
+//Servis KayÄ±tlarÄ± Extensions/ServiceExtension
+
 builder.Services.ConfigureSqlserverConnection(builder.Configuration);
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServicesManager();
 builder.Services.RegisterRepositories();
 builder.Services.RegisterServices();
 
+
 builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
 
+app.ConfigureExceptionHandler();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

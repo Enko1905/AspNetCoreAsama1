@@ -21,6 +21,7 @@ namespace WebApi.Controllers
 
         public async Task<IActionResult> GetAllProduct()
         {
+
             var result = await _manager.ProductService.GetAllProductAsync(false);
             if (result is null)
             {

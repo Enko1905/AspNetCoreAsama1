@@ -12,7 +12,7 @@ using Repositories.EFCore;
 namespace Repositories.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20250818201732_init")]
+    [Migration("20250819112516_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,6 +46,36 @@ namespace Repositories.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Yeni Nesil Laptop",
+                            Name = "Laptop",
+                            Price = 5000m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Sırt Çantası",
+                            Name = "Çanta",
+                            Price = 3200m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Oturma Masası",
+                            Name = "Masa",
+                            Price = 5400m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "Okul silgisi",
+                            Name = "Silgi",
+                            Price = 5230m
+                        });
                 });
 #pragma warning restore 612, 618
         }

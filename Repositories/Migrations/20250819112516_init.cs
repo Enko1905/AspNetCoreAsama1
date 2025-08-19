@@ -22,6 +22,17 @@ namespace Repositories.Migrations
                 {
                     table.PrimaryKey("PK_products", x => x.Id);
                 });
+
+            migrationBuilder.InsertData(
+                table: "products",
+                columns: new[] { "Id", "Description", "Name", "Price" },
+                values: new object[,]
+                {
+                    { 1, "Yeni Nesil Laptop", "Laptop", 5000m },
+                    { 2, "Sırt Çantası", "Çanta", 3200m },
+                    { 3, "Oturma Masası", "Masa", 5400m },
+                    { 4, "Okul silgisi", "Silgi", 5230m }
+                });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

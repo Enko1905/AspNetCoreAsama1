@@ -5,6 +5,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\webapi\\controllers\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\webapi\\extensions\\exceptionmiddlewareextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\extensions\\exceptionmiddlewareextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D0DDE41-0183-45B0-9D5F-006483F6E10D}|Entities\\Entities.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0D0DDE41-0183-45B0-9D5F-006483F6E10D}|Entities\\Entities.csproj|solutionrelative:entities\\entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D0DDE41-0183-45B0-9D5F-006483F6E10D}|Entities\\Entities.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\entities\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D0DDE41-0183-45B0-9D5F-006483F6E10D}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D0DDE41-0183-45B0-9D5F-006483F6E10D}|Entities\\Entities.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\entities\\errormodel\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D0DDE41-0183-45B0-9D5F-006483F6E10D}|Entities\\Entities.csproj|solutionrelative:entities\\errormodel\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|c:\\users\\enkoc\\onedrive\\masa\u00FCst\u00FC\\proje 1\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0EFE379-DBE3-48A6-BC48-72F63795F4A3}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,9 +60,74 @@
               "RelativeDocumentMoniker": "WebApi\\Controllers\\Product.cs",
               "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Controllers\\Product.cs",
               "RelativeToolTip": "WebApi\\Controllers\\Product.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAgwCcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:51:29.748Z",
+              "WhenOpened": "2025-08-19T11:57:19.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:51:49.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorDetails.cs",
+              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Entities\\ErrorModel\\ErrorDetails.cs",
+              "RelativeDocumentMoniker": "Entities\\ErrorModel\\ErrorDetails.cs",
+              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Entities\\ErrorModel\\ErrorDetails.cs",
+              "RelativeToolTip": "Entities\\ErrorModel\\ErrorDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:50:40.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Entities\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Entities\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:46:36.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Entities",
+              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Entities\\Entities.csproj",
+              "RelativeDocumentMoniker": "Entities\\Entities.csproj",
+              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\Entities\\Entities.csproj",
+              "RelativeToolTip": "Entities\\Entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T11:46:10.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionMiddleWareExtension.cs",
+              "DocumentMoniker": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Extensions\\ExceptionMiddleWareExtension.cs",
+              "RelativeDocumentMoniker": "WebApi\\Extensions\\ExceptionMiddleWareExtension.cs",
+              "ToolTip": "C:\\Users\\enkoc\\OneDrive\\Masa\u00FCst\u00FC\\Proje 1\\WebApi\\WebApi\\Extensions\\ExceptionMiddleWareExtension.cs",
+              "RelativeToolTip": "WebApi\\Extensions\\ExceptionMiddleWareExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T11:42:23.892Z",
               "EditorCaption": ""
             }
           ]
