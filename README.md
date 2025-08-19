@@ -1,3 +1,5 @@
+Asp.NetCore versiyon 6.0 <br>
+
 Katmanlı Mimari(Controller – Service – Repository)<br>
 Basit Model-DTO-Controller yapısı Kullanıldı. <br>
 Not : AutoMapper sonradan Ekledim<br>
