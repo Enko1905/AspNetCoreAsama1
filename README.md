@@ -13,7 +13,6 @@ SqlServer Veri Tabanı Kullanıldı <br>
 veritabanı Bağlantı  WebApi/appsetting.json Dosyası içerisinde SqlServerConnection <br>
 
 dotnet EF Core ile <br>
-
 Migration Oluşturulması <br>
 dotnet ef migrations add initNew --project Repositories --startup-project WebApi<br>
 <br>

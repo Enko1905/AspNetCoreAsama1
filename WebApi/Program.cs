@@ -19,6 +19,7 @@ builder.Services.ConfigureServicesManager();
 builder.Services.RegisterRepositories();
 builder.Services.RegisterServices();
 
+builder.Services.ConfigureSwagger();
 
 builder.Services.AddAutoMapper(typeof(Program));
 

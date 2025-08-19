@@ -78,4 +78,3 @@ C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Servic
 C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Services.pdb
 C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
