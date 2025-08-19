@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.DataTransferObject;
+using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +10,11 @@ namespace Services.Contratcs
 {
     public interface IProductService
     {
-        Task<Products> GetOneProductAsync(int id, bool TrackChanges);
-        Task<IEnumerable<Products>> GetAllProductAsync (bool TrackChanges);
-        Task<Products> CreateOneProductAsync(Products products);
+        Task<ProductDto> GetOneProductAsync(int id, bool TrackChanges);
+        Task<List<ProductDto>> GetAllProductAsync (bool TrackChanges);
+        Task<ProductDto> CreateOneProductAsync(ProductDtoForInsert productsDtoInsert);
 
-        Task UpdateOneProductAsync(int id, Products products, bool TrackChanges);
+        Task UpdateOneProductAsync(int id, ProductDtoForUpdate productsDtoUpdate, bool TrackChanges);
         Task DeleteOneProductAsync(int id ,bool TrackChanges);
 
 

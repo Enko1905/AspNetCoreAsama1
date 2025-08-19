@@ -18,6 +18,8 @@ namespace Repositories.EFCore
 
         public void CreateOneProduct(Products products) => Create(products);
         public void DeleteOneProduct(Products products) => Delete(products);
+        public void UpdateOneProduct(Products products) => Update(products);
+
         public async Task<List<Products>> GetAllProductAsync(bool trackChanges)
         {
             var products = await FindAll(trackChanges).ToListAsync();
@@ -29,5 +31,7 @@ namespace Repositories.EFCore
             var produts = await FindByCondation(p => p.Id.Equals(id), trackChanges).SingleOrDefaultAsync();
             return produts;
         }
+
+        
     }
 }

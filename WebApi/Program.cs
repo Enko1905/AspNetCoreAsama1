@@ -1,5 +1,6 @@
 using WebApi.Extensions;
 using Services;
+using WebApi.Utilities.AutoMapper;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "WebApi.Controllers.Product",
-    "Method": "GetProduct",
+    "Method": "GetAllProduct",
     "RelativePath": "api/Product",
     "HttpMethod": "GET",
     "IsController": true,
@@ -18,8 +18,61 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "products",
-        "Type": "Entities.Models.Products",
+        "Name": "productDtoForInsert",
+        "Type": "Entities.DataTransferObject.ProductDtoForInsert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.Product",
+    "Method": "GetOneProduct",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.Product",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "productDtoForUpdate",
+        "Type": "Entities.DataTransferObject.ProductDtoForUpdate",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApi.Controllers.Product",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

@@ -13,8 +13,8 @@ namespace Repositories.Contracts
         Task<List<Products>> GetAllProductAsync(bool trackChanges);
         Task<Products> GetOneProductByIdAsync(int id,bool trackChanges);
 
-        void Create(Products products);
-        void Update(Products products);
-        void Delete(Products products);
+        void CreateOneProduct(Products products);
+        void UpdateOneProduct(Products products);
+        void DeleteOneProduct(Products products);
     }
 }

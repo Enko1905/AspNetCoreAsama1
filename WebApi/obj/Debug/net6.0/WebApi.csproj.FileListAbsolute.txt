@@ -79,10 +79,3 @@ C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Servic
 C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Services.pdb
 C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Bcl.HashCode.dll
-C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-C:\Users\enkoc\OneDrive\Masaüstü\Proje 1\WebApi\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

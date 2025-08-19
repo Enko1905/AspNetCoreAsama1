@@ -1,4 +1,6 @@
-﻿using Entities.Models;
+﻿using AutoMapper;
+using Entities.DataTransferObject;
+using Entities.Models;
 using Microsoft.IdentityModel.Tokens;
 using Repositories.Contracts;
 using Services.Contratcs;
@@ -13,50 +15,55 @@ namespace Services
     public class ProductManager : IProductService
     {
         private readonly IRepositoryManager _repositoryManager;
+        private readonly IMapper _mapper;
 
-        public ProductManager(IRepositoryManager repositoryManager)
+        public ProductManager(IRepositoryManager repositoryManager, IMapper mapper)
         {
             _repositoryManager = repositoryManager;
+            _mapper = mapper;
         }
 
-        public async Task<Products> CreateOneProductAsync(Products products)
+        public async Task<ProductDto> CreateOneProductAsync(ProductDtoForInsert productsDtoInsert)
         {
-            _repositoryManager.Product.Create(products);
+            var entity = _mapper.Map<Products>(productsDtoInsert);
+            _repositoryManager.Product.CreateOneProduct(entity);
             await _repositoryManager.SaveAsync();
-            return products;
+            return _mapper.Map<ProductDto>(entity);
         }
 
         public async Task DeleteOneProductAsync(int id, bool TrackChanges)
         {
-            var product = await GetOneProductAsync(id, TrackChanges);
+            var product = await _repositoryManager.Product.GetOneProductByIdAsync(id, TrackChanges);
             if (product is not null)
             {
-                _repositoryManager.Product.Delete(product);
+                _repositoryManager.Product.DeleteOneProduct(product);
+                await _repositoryManager.SaveAsync();
             }
 
         }
 
-        public async Task<IEnumerable<Products>> GetAllProductAsync(bool TrackChanges)
+        public async Task<List<ProductDto>> GetAllProductAsync(bool TrackChanges)
         {
-            return await _repositoryManager.Product.GetAllProductAsync(TrackChanges);
+            var entity = await _repositoryManager.Product.GetAllProductAsync(TrackChanges);
+            return _mapper.Map<List<ProductDto>>(entity);
 
         }
 
-        public async Task<Products> GetOneProductAsync(int id, bool TrackChanges)
+        public async Task<ProductDto> GetOneProductAsync(int id, bool TrackChanges)
         {
-            return await _repositoryManager.Product.GetOneProductByIdAsync(id, TrackChanges);
+            var entity = await _repositoryManager.Product.GetOneProductByIdAsync(id, TrackChanges);
+            return _mapper.Map<ProductDto>(entity);
         }
 
-        public async Task UpdateOneProductAsync(int id, Products products, bool TrackChanges)
+        public async Task UpdateOneProductAsync(int id, ProductDtoForUpdate productsDtoUpdate, bool TrackChanges)
         {
             var product = await _repositoryManager.Product.GetOneProductByIdAsync(id, TrackChanges);
             if (product is not null)
             {
-                product.Price = products.Price;
-                product.Description = products.Description;
-                product.Name = products.Name;
+                var entity = _mapper.Map<Products>(productsDtoUpdate);
+               
 
-                _repositoryManager.Product.Update(product);
+                _repositoryManager.Product.UpdateOneProduct(entity);
                 await _repositoryManager.SaveAsync();
             }
 
