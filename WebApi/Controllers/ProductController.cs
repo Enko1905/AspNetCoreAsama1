@@ -9,11 +9,11 @@ namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class Product : ControllerBase
+    public class ProductController : ControllerBase
     {
         private readonly IServiceManager _manager;
 
-        public Product(IServiceManager manager)
+        public ProductController(IServiceManager manager)
         {
             _manager = manager;
         }
